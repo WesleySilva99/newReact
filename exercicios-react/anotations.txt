@@ -1,0 +1,2 @@
+ao importar componente sem ser via default import, usar  {}
+ao importar componente com mais de um export, dizer como ele deve ser chamado

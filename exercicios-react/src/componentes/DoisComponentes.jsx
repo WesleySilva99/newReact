@@ -6,4 +6,11 @@ const CompA = props =>
 const Compb = props =>
     <h1>Cpf: {props.cpf}</h1>
 
-export {CompA, Compb}
+const maisUm = props =>
+    <div>
+        <h1>Vem outro componente</h1>
+        <p>{props.texto}</p>
+    </div>
+
+export {maisUm, Compb}
+export default CompA
